@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/gamelogo_1_32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RPS Game</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Rock Paper Scissors Game</h1>
+    </header>
+    <section class="main">
+      <h2 class="human-message">The future of humanity depends on YOU</h2>
+      <img src="images/maingif.gif" alt="friends playing RPS" />
+      <button class="begain btn">BEGAIN</button>
+    </section>
+    <section class="hands hidden">
+      <section class="user-hand">
+        <p class="user-message">Pick One Hand</p>
+        <div class="user-pick">
+          <figure>
+            <img
+              class="playing-rock"
+              src="images/user_rock.png"
+              alt="Rock img"
+            />
+            <p>ROCK</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="playing-paper"
+              src="images/user_paper.png"
+              alt="Paper img"
+            />
+            <p>PAPER</p>
+          </figure>
+          <figure class="long-hand">
+            <img
+              class="playing-scissors"
+              src="images/user_scissor.png"
+              alt="scissors img"
+            />
+            <p>SCISSORS</p>
+          </figure>
+        </div>
+      </section>
+      <section class="computer-hand">
+        <p class="user-message">
+          Computer is gentle waiting you to pick hand first
+        </p>
+        <img
+          class="computer-wait"
+          src="images/computer wait.gif"
+          alt="loading computer"
+        />
+      </section>
+    </section>
+    <section class="result hidden">
+      <div class="pick">
+        <section class="user-hand">
+          <p class="user-message">You Pick</p>
+          <figure class="result-user-fig">
+            <img src="images/user_rock.png" alt="Rock img" />
+            <figcaption>ROCK</figcaption>
+          </figure>
+        </section>
+        <section class="computer-hand">
+          <p class="user-message">Computer Pick</p>
+          <figure class="result-computer-fig">
+            <img src="images/computer_scissor.png" alt="Scissor img" />
+            <figcaption>SCISSORS</figcaption>
+          </figure>
+        </section>
+      </div>
+      <p class="result-massage">
+        You Beats the Computer, i think we can survive Skynet
+      </p>
+      <img class="result-img" src="images/user win.gif" alt="killing rebot" />
+      <button class="btn again">AGAIN!</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
