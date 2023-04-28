@@ -38,7 +38,8 @@ body {
 }
 .begain {
   position: absolute;
-  bottom: -130px;
+  bottom: -110px;
+  margin-bottom: 24px;
 }
 .again {
   position: relative;
